@@ -7,7 +7,7 @@ tags:
 ## inline元素
 ### 单行
 1. 上下padding设置为一样的。
-1. 
+1. 或者：
 ```CSS
 centre-text-trick{
     height： 100px;
@@ -27,7 +27,7 @@ centre-text-trick{
 }
 ```
 ## block元素
-1. 知道高度： 
+* 知道高度： 
 ```CSS
 .parent{
     position: relative;
@@ -39,7 +39,7 @@ centre-text-trick{
     margin-top: -50px;          /*height的一半*/
 }
 ```
-1. 不知道高度：
+* 不知道高度：
 ```CSS
 .parent{
     position: relative;
@@ -52,7 +52,8 @@ centre-text-trick{
 ```
 CSS中的轴：
 ![](http://ww1.sinaimg.cn/large/abbc1cebgy1fy2kyqijk6j20cd0bqjtv.jpg)
-1. flex布局：
+
+* flex布局：
 ```CSS
 .parent{
     display: flex;
