@@ -1,2 +1,2 @@
-# blog-generator
-a repository downloaded ( not vacant )
+# Blog
+This is my blog files.
